@@ -8,32 +8,38 @@
         width: 0;
         height: 0;
     }
+    .flex{
+        height: 55vmin;
+        margin-bottom: 2vh;
+    }
     .poster{
-        width: 80vw;  
+        width: 100vw;  
+        height: 55vmin;
+        /* transform: translateY(-25%); */
     }
     @keyframes animation {
         0%   {transform: translateX(0vw);}
         20%   {transform: translateX(0vw);}
-        22%  {transform: translateX(-80vw);}
-        42%  {transform: translateX(-80vw);}
-        44%  {transform: translateX(-160vw);}
-        64%  {transform: translateX(-160vw);}
-        66% {transform: translateX(-240vw);}
-        86% {transform: translateX(-240vw);}
-        88% {transform: translateX(-320vw);}
-        100% {transform: translateX(-320vw);}
+        22%  {transform: translateX(-100vw);}
+        42%  {transform: translateX(-100vw);}
+        44%  {transform: translateX(-200vw);}
+        64%  {transform: translateX(-200vw);}
+        66% {transform: translateX(-300vw);}
+        86% {transform: translateX(-300vw);}
+        88% {transform: translateX(-400vw);}
+        100% {transform: translateX(-400vw);}
       }
     
       .posterimg{
-        width: 80vw;
-        height: 45vmin;
+        width: 100vw;
+        height: 60vmin;
     }
 .mininav{
     padding:0 3vw;
 }
 
 .verticalposter1,.verticalposter2,.verticalposter3,.verticalposter4{
-    padding-left: 5vw;
+    padding-left: 2vw;
 }
 .top{
     width: 100vw;
@@ -94,7 +100,22 @@ background-color: var(--dark-color);
 transition: 0.3s  ease-in-out;
 }
 
+.postertxt{
+    width: 15vmax;
+    height: 20vmax;
+    background-color: var(--dark-color);
+    /* width: 0vmax; */
+    display: none ;
+    /* transform:translateX(-100%); */
 
+}
+.posterimgv{
+    width: 16vmax;
+    height: 23vmax;
+    /* z-index: 22; */
+    border-radius: 8px;
+    
+}
 
 
 
