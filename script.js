@@ -97,7 +97,7 @@ function tiles(imgurl,name,vidurl) {
 
 }
 // tiles("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa3FV1g4LAWsvBsSLJ2tpQm_yZv6UzBdTJrLQ4B3B_&s", "Army of Thieves","army");
-tiles("../images/army of thieves.jpg","Army of Thieves","army","She.Hulk.Attorney.at.Law.S01E01.720p.x264.Hindi.English.Esubs.mkv");
+tiles("images/army of thieves.jpg","Army of Thieves","army","She.Hulk.Attorney.at.Law.S01E01.720p.x264.Hindi.English.Esubs.mkv");
 tiles("images/escape room.jpg","Escape Room","She.Hulk.Attorney.at.Law.S01E01.720p.x264.Hindi.English.Esubs.mkv");
 tiles("images/1917.jpg","1917","She.Hulk.Attorney.at.Law.S01E01.720p.x264.Hindi.English.Esubs.mkv");
 tiles("images/dune.jpg","Dune","She.Hulk.Attorney.at.Law.S01E01.720p.x264.Hindi.English.Esubs.mkv");
