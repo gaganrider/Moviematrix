@@ -395,6 +395,7 @@ border-radius: 0px;
     height: 16.5vmax;
     /* z-index: 22; */
     border-radius: 8px;
+    object-fit: cover;
     
 }
 .tile:hover{
